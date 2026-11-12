@@ -16,8 +16,5 @@
         description="@string/datatype_wifi_status_desc"
         graphical="true"
         icon="@drawable/ic_mqtt" />
-    <BonusAction
-        actionId="toggle-wifi"
-        displayName="@string/action_toggle_wifi" />
     <!-- DataType ... -->
 </ExtensionInfo>
