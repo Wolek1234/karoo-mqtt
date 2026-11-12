@@ -2,9 +2,9 @@
   "label": "karooMQTT",
   "packageName": "io.hammerhead.karooexttemplate",
   "iconUrl": "https://raw.githubusercontent.com/Wolek1234/karoo-mqtt/main/ic_mqtt.svg",
-  "latestApkUrl": "https://github.com/Wolek1234/karoo-mqtt/releases/download/v1.11/karooMQTT-1.11.apk",
-  "latestVersion": "1.11",
-  "latestVersionCode": 12,
+  "latestApkUrl": "https://github.com/Wolek1234/karoo-mqtt/releases/download/v1.12/karooMQTT-1.12.apk",
+  "latestVersion": "1.12",
+  "latestVersionCode": 13,
   "developer": "Wolek1234",
   "description": "Publishes indoor-training power and heart-rate data to a local MQTT broker. Activates automatically on trainer (indoor) profiles, keeps Wi-Fi alive during indoor rides, and exposes MQTT/Wi-Fi status fields for ride profiles.",
   "releaseNotes": "Auto-start on indoor profiles, MQTT online/offline status topic, colored MQTT/Wi-Fi data fields, service auto-stop after ride."

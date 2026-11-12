@@ -10,7 +10,7 @@ import io.hammerhead.karooext.models.RideState
 import io.hammerhead.karooexttemplate.BuildConfig
 import io.hammerhead.karooexttemplate.service.KarooMqttService
 
-class TemplateExtension : KarooExtension("template-id", BuildConfig.VERSION_NAME) {
+class TemplateExtension : KarooExtension("karoo-mqtt", BuildConfig.VERSION_NAME) {
 
     override val types by lazy {
         listOf(

@@ -2,7 +2,7 @@
 <ExtensionInfo
     displayName="@string/extension_name"
     icon="@drawable/ic_mqtt"
-    id="template-id"
+    id="karoo-mqtt"
     scansDevices="false">
     <DataType
         typeId="mqtt-status"
