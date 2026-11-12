@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ExtensionInfo
     displayName="@string/extension_name"
-    icon="@drawable/ic_mqtt"
+    icon="@drawable/ic_mqtt_icon"
     id="karoo-mqtt"
     scansDevices="false">
     <DataType
@@ -9,12 +9,12 @@
         displayName="@string/datatype_mqtt_status"
         description="@string/datatype_mqtt_status_desc"
         graphical="true"
-        icon="@drawable/ic_mqtt" />
+        icon="@drawable/ic_mqtt_icon" />
     <DataType
         typeId="wifi-status"
         displayName="@string/datatype_wifi_status"
         description="@string/datatype_wifi_status_desc"
         graphical="true"
-        icon="@drawable/ic_mqtt" />
+        icon="@drawable/ic_mqtt_icon" />
     <!-- DataType ... -->
 </ExtensionInfo>
