@@ -10,10 +10,11 @@ import io.hammerhead.karooext.models.ActiveRideProfile
 import io.hammerhead.karooext.models.InRideAlert
 import io.hammerhead.karooext.models.RideProfile
 import io.hammerhead.karooext.models.RideState
+import io.hammerhead.karooexttemplate.BuildConfig
 import io.hammerhead.karooexttemplate.R
 import io.hammerhead.karooexttemplate.service.KarooMqttService
 
-class TemplateExtension : KarooExtension("template-id", "1.1") {
+class TemplateExtension : KarooExtension("template-id", BuildConfig.VERSION_NAME) {
 
     override val types by lazy {
         listOf(
@@ -82,7 +83,7 @@ class TemplateExtension : KarooExtension("template-id", "1.1") {
             karooSystem.dispatch(
                 InRideAlert(
                     id = "wifi-toggle",
-                    icon = R.drawable.ic_mqtt_icon,
+                    icon = R.drawable.ic_mqtt,
                     title = "Wi-Fi",
                     detail = detail,
                     autoDismissMs = 4000L,

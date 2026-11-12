@@ -14,7 +14,6 @@ I use it to control my **fan speed during indoor trainer sessions** — the aver
 - **Battery friendly** — Wi-Fi (`WifiLock` + `ConnectivityManager.requestNetwork`) and the MQTT connection are active **only** during indoor recording. Outdoor rides keep Wi-Fi asleep and never touch the broker.
 - **In-ride status fields** — custom graphical data fields (**MQTT**, **Wi-Fi**) that can be added to any ride profile page; green = active, red = inactive.
 - **Settings UI** — broker host/port/credentials/topic, averaging window, send interval (5/7/10s or custom), live readings, and a one-tap MQTT test that works without starting a ride.
-- **Wi-Fi toggle BonusAction** — optional in-ride action to toggle Wi-Fi (availability depends on Karoo OS restrictions).
 
 ## MQTT topics
 
