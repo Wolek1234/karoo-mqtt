@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">karooMQTT</string>
+    <string name="hello_karoo">Hello Karoo!</string>
+    <string name="extension_name">MQTT</string>
+    <string name="notification_channel_name">Karoo MQTT</string>
+    <string name="datatype_mqtt_status">MQTT</string>
+    <string name="datatype_mqtt_status_desc">MQTT connection status (1 = connected)</string>
+    <string name="datatype_wifi_status">Wi-Fi</string>
+    <string name="datatype_wifi_status_desc">Wi-Fi connection status (1 = active)</string>
+    <string name="action_toggle_wifi">Toggle Wi-Fi</string>
+</resources>
