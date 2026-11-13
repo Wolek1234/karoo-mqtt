@@ -9,11 +9,11 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "io.hammerhead.karooexttemplate"
+        applicationId = "io.github.wolek1234.karoomqtt"
         minSdk = 23
         targetSdk = 34
-        versionCode = 15
-        versionName = "1.14"
+        versionCode = 16
+        versionName = "1.15"
     }
 
     buildTypes {
